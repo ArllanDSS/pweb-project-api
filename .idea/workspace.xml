@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da3fb362-3a15-40ba-b00b-9676205b0129" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/Startup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/Startup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/Startup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pweb-project-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/pweb-project-api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pweb-project-api-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/pweb-project-api-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.arllansantana.springbootjwtauth.StartupTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.arllansantana.springbootjwtauth.StartupTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.arllansantana.springbootjwtauth.StartupTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.arllansantana.springbootjwtauth.StartupTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +134,7 @@
       <workItem from="1734478267683" duration="59000" />
       <workItem from="1734479147737" duration="2415000" />
       <workItem from="1734483885064" duration="639000" />
-      <workItem from="1734484540492" duration="24638000" />
+      <workItem from="1734484540492" duration="25461000" />
     </task>
     <servers />
   </component>
