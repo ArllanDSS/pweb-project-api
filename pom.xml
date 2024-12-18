@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.arllansantana</groupId>
-    <artifactId>springboot-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>pweb-project-api</artifactId>
+    <version>1.0.0</version>
     <name>springboot-jwt-auth</name>
     <description>springboot-jwt-auth</description>
     <url/>
