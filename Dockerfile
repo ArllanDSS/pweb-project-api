@@ -14,3 +14,8 @@ EXPOSE 8080
 COPY --from=build /target/pweb-project-api-1.0.0.jar app.jar
 
 ENTRYPOINT [ "java", "-jar", "app.jar" ]
+
+ENV DB_URL=${DB_URL}
+ENV DB_USERNAME=${DB_USERNAME}
+ENV DB_PASSWORD=${DB_PASSWORD}
+ENV JWT_SECRET=${JWT_SECRET}
