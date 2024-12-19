@@ -202,4 +202,18 @@ public class AuthController {
         }
     }
 
+    @GetMapping("/user")
+    @PreAuthorize("hasRole('USER') or hasRole('MODERATOR') or hasRole('ADMIN')")
+    public ResponseEntity<?> getUserDetails(Authentication authentication) {
+        try {
+            String cpf = authentication.getName();
+            User user = userRepository.findByCpf(cpf)
+                    .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
+
+            return ResponseEntity.ok(user);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(new MessageResponse("Erro ao buscar dados do usuário"));
+        }
+    }
+
 }
