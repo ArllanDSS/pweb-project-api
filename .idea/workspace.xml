@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da3fb362-3a15-40ba-b00b-9676205b0129" name="Changes" comment="" />
+    <list default="true" id="da3fb362-3a15-40ba-b00b-9676205b0129" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arllansantana/springbootjwtauth/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/Startup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/Startup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/controllers/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/arllansantana/springbootjwtauth/security/WebSecurityConfig.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -127,6 +138,7 @@
       <workItem from="1734296165444" duration="2829000" />
       <workItem from="1734478267683" duration="59000" />
       <workItem from="1734479147737" duration="3110000" />
+      <workItem from="1734606072430" duration="2906000" />
     </task>
     <servers />
   </component>

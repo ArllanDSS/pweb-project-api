@@ -64,6 +64,7 @@ public class WebSecurityConfig {
                     CorsConfiguration config = new CorsConfiguration();
                     config.setAllowCredentials(true); // Permite o envio de cookies e credenciais
                     config.addAllowedOriginPattern("http://localhost:*");
+                    config.addAllowedOriginPattern("http://127.0.0.1:*");
                     config.addAllowedHeader("*"); // Permite todos os headers
                     config.addAllowedMethod("*"); // Permite todos os métodos HTTP (GET, POST, PUT, DELETE, etc.)
                     return config;
@@ -74,6 +75,7 @@ public class WebSecurityConfig {
                 .authorizeHttpRequests(auth ->
                         auth.requestMatchers("/api/auth/**").permitAll()
                                 .requestMatchers("/api/test/**").permitAll()
+                                .requestMatchers("/api/consultas/**").permitAll()
                                 .anyRequest().authenticated()
 
                 );
